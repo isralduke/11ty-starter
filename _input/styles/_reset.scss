@@ -40,13 +40,15 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 // A elements that don't have a class get default styles
-a:not([class]) {
+a:not([class]), .skip-link {
+	color: var(--site-link-color);
 	text-decoration: underline;
 	text-decoration-skip-ink	: auto;
 	text-underline-offset		: .125rem;
 	transition					: $transition-base;
 	&:hover, &:active, &:focus {
 		text-decoration-style	: double;
+		color: var(--site-link-hover-color);
 	}
 }
 // Make images easier to work with
