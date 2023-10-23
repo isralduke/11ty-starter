@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig){
 	// eleventyConfig.addPassthroughCopy("_input/styles");
 	eleventyConfig.addPassthroughCopy("_input/images");
 	eleventyConfig.addPassthroughCopy("_input/js");
+	eleventyConfig.addPassthroughCopy("_input/.htaccess");
 	// set input and output directories
 	return {
 		dir: {
