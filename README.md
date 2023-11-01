@@ -25,7 +25,7 @@ The 404 content is in a markdown file, `404.md`. The layout is `404.njk` in case
 
 ### Eleventy Navigation Plugin
 
-Using the official [Eleventy Navigation Plugin](https://www.11ty.dev/docs/plugins/navigation/) we can implement complex information architecture. To illustrate its use, sample content in `/parent` with children has been added. Feel free to change this as necessary.
+Using the official [Eleventy Navigation Plugin](https://www.11ty.dev/docs/plugins/navigation/) we can implement complex information architecture. To illustrate its use, sample content in `/parent` with children has been added. Feel free to change this as necessary. Consult the Eleventy docs for using things such as `order` and `parent`.
 
 ### Human Sitemap
 
@@ -37,6 +37,6 @@ This project already has built-in support for an XML Sitemap, used for search en
 
 ### Social Media Graphics, Favicons
 
-Social media previews are put in this project using the [Open Graph meta elements](https://ogp.me/). These preview are enabled with various front matter data, such as `excerpt` and `social-image`.
+Social media previews are put in this project using the [Open Graph meta elements](https://ogp.me/). These previes are enabled with various front matter data, such as `excerpt` and `social-image`.
 
 Favicons are already saved in the project so you can replace them with your own. Just use the sizes, filenames as they are. Be sure to set the `themeColor` in the `<head>` in the `/_data/site.json` file.

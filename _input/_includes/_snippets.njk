@@ -1,2 +1,4 @@
 {%- from "macros/button.njk" import button -%}
 {{ button({ id:"btnLg", type:"button", classes:"btn btn-primary", iconLeft:"yo", text:"Click Me", iconRight:"oy" }) }}
+
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}

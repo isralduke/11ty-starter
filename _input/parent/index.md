@@ -1,9 +1,8 @@
 ---
 title: Parent Page Test
 eleventyNavigation:
-order: 1
   key: Parent Page Test
-  order: 2
+  order: 1
 layout: page.njk
 ---
 

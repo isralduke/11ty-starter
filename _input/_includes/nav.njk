@@ -6,7 +6,15 @@
 		{% if entry.children %}
 			<ul>
 			{% for child in entry.children %}
-				<li><a href="{{ child.url | url }}">{{ child.title }}</a></li>
+				<li><a href="{{ child.url | url }}">{{ child.title }}</a>
+					{% if child.children %}
+						<ul>
+						{% for grandchild in child.children %}
+							<li><a href="{{ grandchild.url | url }}">{{ grandchild.title }}</a></li>
+						{% endfor %}
+						</ul>
+					{% endif %}
+				</li>
 			{% endfor %}
 			</ul>
 		{% endif %}
