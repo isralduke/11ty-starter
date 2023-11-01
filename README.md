@@ -11,10 +11,11 @@ NPM should be installed on your machine.
 
 This project incorporates a few features. More details about each feature are described later in this file. These features are:
 
-- 404 Page
-- Eleventy Navigation Plugin
-- Human Sitemap
-- SEO Sitemap
+- [404 Page](#404-page)
+- [Eleventy Navigation Plugin](#eleventy-navigation-plugin)
+- [Human Sitemap](#human-sitemap)
+- [SEO Sitemap](#seo-sitemap)
+- [Social Media Graphics, Favicons](#social-media-graphics-favicons)
 
 ### 404 Page
 
@@ -32,4 +33,10 @@ Human readable sitemaps help comply with [WCAG Success Criteria 2.4.5 Multiple W
 
 ### SEO Sitemap
 
-Thsi project already has built-in support for an XML Sitemap, used for search engine indexing. This file `sitemap-seo.njk` is the only place it exists. Like the 404 file, it’s excluded from the site navigation.
+This project already has built-in support for an XML Sitemap, used for search engine indexing. This file `sitemap-seo.njk` is the only place it exists. Like the 404 file, it’s excluded from the site navigation.
+
+### Social Media Graphics, Favicons
+
+Social media previews are put in this project using the [Open Graph meta elements](https://ogp.me/). These preview are enabled with various front matter data, such as `excerpt` and `social-image`.
+
+Favicons are already saved in the project so you can replace them with your own. Just use the sizes, filenames as they are. Be sure to set the `themeColor` in the `<head>` in the `/_data/site.json` file.
