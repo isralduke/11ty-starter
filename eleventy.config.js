@@ -1,8 +1,10 @@
 // https://github.com/kentaroi/eleventy-sass
 const eleventySass = require("eleventy-sass");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig){
 	eleventyConfig.addPlugin(eleventySass);
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	// copy images, scripts, styles to _site
 	// eleventyConfig.addPassthroughCopy("_input/styles");
 	eleventyConfig.addPassthroughCopy("_input/images");
