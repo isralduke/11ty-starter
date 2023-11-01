@@ -1,5 +1,8 @@
 ---
 title: Homepage
+eleventyNavigation:
+  key: Home
+  order: 0
 layout: home.njk
 ---
 
