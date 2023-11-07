@@ -14,6 +14,7 @@
 		"@11ty/eleventy-navigation": "^0.3.5"
 	},
 	"dependencies": {
-		"eleventy-sass": "^2.2.3"
+		"eleventy-sass": "^2.2.3",
+		"luxon": "^3.4.3"
 	}
 }
