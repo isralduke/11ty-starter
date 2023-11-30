@@ -20,8 +20,8 @@ module.exports = function(eleventyConfig){
 	// set input and output directories
 	return {
 		dir: {
-			input : "_input",
-			output: "_output",
+			input : "src",
+			output: "dist",
 			layouts: "_layouts"
 		}
 	};
