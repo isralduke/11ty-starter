@@ -14,6 +14,8 @@
 		"@11ty/eleventy-navigation": "^0.3.5"
 	},
 	"dependencies": {
+		"@orchidjs/eleventy-plugin-ids": "^0.1.1",
+		"@tigersway/eleventy-plugin-ancestry": "^1.0.3",
 		"eleventy-sass": "^2.2.3",
 		"luxon": "^3.4.3"
 	}
