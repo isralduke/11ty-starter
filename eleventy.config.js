@@ -1,7 +1,8 @@
 // https://github.com/kentaroi/eleventy-sass
 const eleventySass = require("eleventy-sass");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-//Include the luxon plugin
+// Include the luxon plugin
+// Thanks to Stephanie Eckles https://11ty.rocks/eleventyjs/dates/
 const { DateTime } = require('luxon');
 https://github.com/TigersWay/eleventy-plugin-ancestry#readme
 const pluginAncestry = require("@tigersway/eleventy-plugin-ancestry");
