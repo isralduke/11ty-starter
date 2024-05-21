@@ -12,9 +12,9 @@ module.exports = function(eleventyConfig){
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	// copy images, scripts, styles to _site
 	// eleventyConfig.addPassthroughCopy("_input/styles");
-	eleventyConfig.addPassthroughCopy("_input/images");
-	eleventyConfig.addPassthroughCopy("_input/js");
-	eleventyConfig.addPassthroughCopy("_input/.htaccess");
+	eleventyConfig.addPassthroughCopy("src/images");
+	eleventyConfig.addPassthroughCopy("src/js");
+	eleventyConfig.addPassthroughCopy("src/.htaccess");
 	eleventyConfig.addFilter('readableDate', (dateObj) => {
 		return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
 			'dd LLL yyyy'
